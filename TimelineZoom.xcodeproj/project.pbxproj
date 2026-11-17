@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DCC70FE9D23C45FE6B036CE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0B30A4821B7BE5F50374D /* App.swift */; };
+		1738B3DFCE86D4071FA7AA0D /* cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C883FFE8D85D2EF7BD3B4E0E /* cake.jpg */; };
+		265FD012EBA22C9A0B2D3943 /* boxes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 920AF5ABD3EC745F74633E94 /* boxes.jpg */; };
+		2B15FA2E8309C07BD094C03E /* fur-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17A4A8F898857789A3A8B631 /* fur-1.jpg */; };
+		3A4DC6890850D4C9C7BDFB81 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC895B1BB15E1D7670A25AF /* History.swift */; };
+		3AEE003B9C80FE7F84F65B20 /* dolphin-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57A65883AA0F1781C605E635 /* dolphin-1.jpg */; };
+		46CB49B4E2738E7F9325201B /* film-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B23314E391BA69B142F8C8FE /* film-1.jpg */; };
+		4AB67280166576FB50BF4A6D /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681673B6BDC6CF0C7622D30F /* pizza.jpg */; };
+		4D2E79AC52A2DAF0E6F94077 /* dolphin-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D4A2CE1F68B1270E9AE5F7 /* dolphin-2.jpg */; };
+		4DEA9AC459F7B5A7E381A4CF /* ScenarioFingers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853C3E8408DB4DBCEC6AD65 /* ScenarioFingers.swift */; };
+		6697BCCCD36B74C8E943D33E /* mountain-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31541B03B8ADCF291A7F5C6A /* mountain-2.jpg */; };
+		6ECF46F70C0B623DFD9DCC1D /* TelegramShell in Frameworks */ = {isa = PBXBuildFile; productRef = 0FB16C899286AED13256250C /* TelegramShell */; };
+		75B7012C1F3C3AE766EB269A /* fur-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF411084968C729F05DC2753 /* fur-2.jpg */; };
+		7DCFE537F91843FB3A8DD531 /* flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34D7F94D68DAF845E1042CD4 /* flowers.jpg */; };
+		923DB303CC0B99143C50D2F3 /* mountain-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D3D3C55E00FC63312D7AE9 /* mountain-1.jpg */; };
+		96AEEAB9B8E3DB7DE598123B /* GooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817231F49C7E79AFE3C5454 /* GooView.swift */; };
+		9C31EE75D8590AE730CD3B95 /* sunset-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8889516AC27AB12A7E763456 /* sunset-2.jpg */; };
+		AB828E6B6B8C7CFB9EB73AD7 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A6D738C977D8C9C984121 /* TimelineView.swift */; };
+		B3BD3887CACDEF4E4B8A04E6 /* film-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9836CB88D1AB9B9216A6FC4B /* film-2.jpg */; };
+		B404E8A9E1FDA2462A6A6A7D /* boat-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61B9BEF285CB80B65D9E01D2 /* boat-2.jpg */; };
+		B5899526A22D5EB68B6D35EB /* sunset-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 751CA89C73ABA75D5279F67C /* sunset-1.jpg */; };
+		B5CEA4580E7EAB866C112254 /* Goo.metal in Sources */ = {isa = PBXBuildFile; fileRef = BBDA96C1EF48F0773290021E /* Goo.metal */; };
+		C56D1DC93A87879786D6E0E7 /* figma-merch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12781FDB07EC776F1AA4382 /* figma-merch.jpg */; };
+		C80E5F672AADD1E590D2BF7B /* boat-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 093EB38BFC8B7CDAB7771A31 /* boat-1.jpg */; };
+		CCDD545731C3BC5562F4F2AF /* TimelineParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96CE2373DC007D680560D0 /* TimelineParts.swift */; };
+		D516FBDF9D6EE2B5A1F8FB94 /* TimelineZoomFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6756B9EDADC034B7E5E4797 /* TimelineZoomFeature.swift */; };
+		DA7791517D045A2FDEE48F03 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16F49B6329F7E380AD86B56B /* cat.jpg */; };
+		E9C86E051EDA706A50C92A24 /* dumplings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF21C0AEA6AFDEEB5BABEC2 /* dumplings.jpg */; };
+		EE337A498D4B237516981454 /* CREDITS.md in Resources */ = {isa = PBXBuildFile; fileRef = 7370DBAD094CE2ECDE5A7734 /* CREDITS.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093EB38BFC8B7CDAB7771A31 /* boat-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boat-1.jpg"; sourceTree = "<group>"; };
+		0DF21C0AEA6AFDEEB5BABEC2 /* dumplings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dumplings.jpg; sourceTree = "<group>"; };
+		16F49B6329F7E380AD86B56B /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		17A4A8F898857789A3A8B631 /* fur-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fur-1.jpg"; sourceTree = "<group>"; };
+		1853C3E8408DB4DBCEC6AD65 /* ScenarioFingers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioFingers.swift; sourceTree = "<group>"; };
+		2AC895B1BB15E1D7670A25AF /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		31541B03B8ADCF291A7F5C6A /* mountain-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mountain-2.jpg"; sourceTree = "<group>"; };
+		34D7F94D68DAF845E1042CD4 /* flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowers.jpg; sourceTree = "<group>"; };
+		57A65883AA0F1781C605E635 /* dolphin-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dolphin-1.jpg"; sourceTree = "<group>"; };
+		61B9BEF285CB80B65D9E01D2 /* boat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boat-2.jpg"; sourceTree = "<group>"; };
+		681673B6BDC6CF0C7622D30F /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		7370DBAD094CE2ECDE5A7734 /* CREDITS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CREDITS.md; sourceTree = "<group>"; };
+		751CA89C73ABA75D5279F67C /* sunset-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunset-1.jpg"; sourceTree = "<group>"; };
+		808293E838F027D3CD93B7D0 /* TelegramShell */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TelegramShell; path = Vendor/TelegramShell; sourceTree = SOURCE_ROOT; };
+		8889516AC27AB12A7E763456 /* sunset-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunset-2.jpg"; sourceTree = "<group>"; };
+		920AF5ABD3EC745F74633E94 /* boxes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxes.jpg; sourceTree = "<group>"; };
+		9836CB88D1AB9B9216A6FC4B /* film-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "film-2.jpg"; sourceTree = "<group>"; };
+		A5D4A2CE1F68B1270E9AE5F7 /* dolphin-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dolphin-2.jpg"; sourceTree = "<group>"; };
+		A6756B9EDADC034B7E5E4797 /* TimelineZoomFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineZoomFeature.swift; sourceTree = "<group>"; };
+		A817231F49C7E79AFE3C5454 /* GooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooView.swift; sourceTree = "<group>"; };
+		B12781FDB07EC776F1AA4382 /* figma-merch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "figma-merch.jpg"; sourceTree = "<group>"; };
+		B23314E391BA69B142F8C8FE /* film-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "film-1.jpg"; sourceTree = "<group>"; };
+		BBDA96C1EF48F0773290021E /* Goo.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Goo.metal; sourceTree = "<group>"; };
+		C883FFE8D85D2EF7BD3B4E0E /* cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cake.jpg; sourceTree = "<group>"; };
+		D08A6D738C977D8C9C984121 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		DC96CE2373DC007D680560D0 /* TimelineParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineParts.swift; sourceTree = "<group>"; };
+		E1D3D3C55E00FC63312D7AE9 /* mountain-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mountain-1.jpg"; sourceTree = "<group>"; };
+		E350EEB70878D5FE8A7A05B3 /* TimelineZoom.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TimelineZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE0B30A4821B7BE5F50374D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		EF411084968C729F05DC2753 /* fur-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fur-2.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB447B07469ED8DFCCA93B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECF46F70C0B623DFD9DCC1D /* TelegramShell in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008F11523B3E6DA2E80A9671 = {
+			isa = PBXGroup;
+			children = (
+				E577EE0C62AC33D89A31AC87 /* App */,
+				97AAD9084AA686F203A2B623 /* Feature */,
+				91FA46B998AD84B94746CEEC /* Packages */,
+				37BFB96F3F01C8F749695B9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1087711F8BEA87EC51A3E720 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				093EB38BFC8B7CDAB7771A31 /* boat-1.jpg */,
+				61B9BEF285CB80B65D9E01D2 /* boat-2.jpg */,
+				920AF5ABD3EC745F74633E94 /* boxes.jpg */,
+				C883FFE8D85D2EF7BD3B4E0E /* cake.jpg */,
+				16F49B6329F7E380AD86B56B /* cat.jpg */,
+				7370DBAD094CE2ECDE5A7734 /* CREDITS.md */,
+				57A65883AA0F1781C605E635 /* dolphin-1.jpg */,
+				A5D4A2CE1F68B1270E9AE5F7 /* dolphin-2.jpg */,
+				0DF21C0AEA6AFDEEB5BABEC2 /* dumplings.jpg */,
+				B12781FDB07EC776F1AA4382 /* figma-merch.jpg */,
+				B23314E391BA69B142F8C8FE /* film-1.jpg */,
+				9836CB88D1AB9B9216A6FC4B /* film-2.jpg */,
+				34D7F94D68DAF845E1042CD4 /* flowers.jpg */,
+				17A4A8F898857789A3A8B631 /* fur-1.jpg */,
+				EF411084968C729F05DC2753 /* fur-2.jpg */,
+				E1D3D3C55E00FC63312D7AE9 /* mountain-1.jpg */,
+				31541B03B8ADCF291A7F5C6A /* mountain-2.jpg */,
+				681673B6BDC6CF0C7622D30F /* pizza.jpg */,
+				751CA89C73ABA75D5279F67C /* sunset-1.jpg */,
+				8889516AC27AB12A7E763456 /* sunset-2.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		37BFB96F3F01C8F749695B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E350EEB70878D5FE8A7A05B3 /* TimelineZoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FA46B998AD84B94746CEEC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				808293E838F027D3CD93B7D0 /* TelegramShell */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		97AAD9084AA686F203A2B623 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				BBDA96C1EF48F0773290021E /* Goo.metal */,
+				A817231F49C7E79AFE3C5454 /* GooView.swift */,
+				1853C3E8408DB4DBCEC6AD65 /* ScenarioFingers.swift */,
+				DC96CE2373DC007D680560D0 /* TimelineParts.swift */,
+				D08A6D738C977D8C9C984121 /* TimelineView.swift */,
+				A6756B9EDADC034B7E5E4797 /* TimelineZoomFeature.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		E577EE0C62AC33D89A31AC87 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EEE0B30A4821B7BE5F50374D /* App.swift */,
+				2AC895B1BB15E1D7670A25AF /* History.swift */,
+				1087711F8BEA87EC51A3E720 /* Photos */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50981D717EF5967DBBA0D4F8 /* TimelineZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5184D370975F7830E689D8 /* Build configuration list for PBXNativeTarget "TimelineZoom" */;
+			buildPhases = (
+				93BE7A6401BB5A982A1E15C3 /* Sources */,
+				79DF2868872F189CEDCDAAA5 /* Resources */,
+				FB447B07469ED8DFCCA93B07 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimelineZoom;
+			packageProductDependencies = (
+				0FB16C899286AED13256250C /* TelegramShell */,
+			);
+			productName = TimelineZoom;
+			productReference = E350EEB70878D5FE8A7A05B3 /* TimelineZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9B536D30FDD5121C2D68E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					50981D717EF5967DBBA0D4F8 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C11482E046384C7E8009EEC8 /* Build configuration list for PBXProject "TimelineZoom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 008F11523B3E6DA2E80A9671;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				819D0186ECE2DE10CB31FA7B /* XCLocalSwiftPackageReference "Vendor/TelegramShell" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 37BFB96F3F01C8F749695B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50981D717EF5967DBBA0D4F8 /* TimelineZoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DF2868872F189CEDCDAAA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE337A498D4B237516981454 /* CREDITS.md in Resources */,
+				C80E5F672AADD1E590D2BF7B /* boat-1.jpg in Resources */,
+				B404E8A9E1FDA2462A6A6A7D /* boat-2.jpg in Resources */,
+				265FD012EBA22C9A0B2D3943 /* boxes.jpg in Resources */,
+				1738B3DFCE86D4071FA7AA0D /* cake.jpg in Resources */,
+				DA7791517D045A2FDEE48F03 /* cat.jpg in Resources */,
+				3AEE003B9C80FE7F84F65B20 /* dolphin-1.jpg in Resources */,
+				4D2E79AC52A2DAF0E6F94077 /* dolphin-2.jpg in Resources */,
+				E9C86E051EDA706A50C92A24 /* dumplings.jpg in Resources */,
+				C56D1DC93A87879786D6E0E7 /* figma-merch.jpg in Resources */,
+				46CB49B4E2738E7F9325201B /* film-1.jpg in Resources */,
+				B3BD3887CACDEF4E4B8A04E6 /* film-2.jpg in Resources */,
+				7DCFE537F91843FB3A8DD531 /* flowers.jpg in Resources */,
+				2B15FA2E8309C07BD094C03E /* fur-1.jpg in Resources */,
+				75B7012C1F3C3AE766EB269A /* fur-2.jpg in Resources */,
+				923DB303CC0B99143C50D2F3 /* mountain-1.jpg in Resources */,
+				6697BCCCD36B74C8E943D33E /* mountain-2.jpg in Resources */,
+				4AB67280166576FB50BF4A6D /* pizza.jpg in Resources */,
+				B5899526A22D5EB68B6D35EB /* sunset-1.jpg in Resources */,
+				9C31EE75D8590AE730CD3B95 /* sunset-2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BE7A6401BB5A982A1E15C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCC70FE9D23C45FE6B036CE /* App.swift in Sources */,
+				B5CEA4580E7EAB866C112254 /* Goo.metal in Sources */,
+				96AEEAB9B8E3DB7DE598123B /* GooView.swift in Sources */,
+				3A4DC6890850D4C9C7BDFB81 /* History.swift in Sources */,
+				4DEA9AC459F7B5A7E381A4CF /* ScenarioFingers.swift in Sources */,
+				CCDD545731C3BC5562F4F2AF /* TimelineParts.swift in Sources */,
+				AB828E6B6B8C7CFB9EB73AD7 /* TimelineView.swift in Sources */,
+				D516FBDF9D6EE2B5A1F8FB94 /* TimelineZoomFeature.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F9DAFBE72AB455C5AD77316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Timeline Zoom";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2462DD3EB7D2AC385A09CAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "concept.timeline-zoom";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3086CE6B5C35903588616953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Timeline Zoom";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		70CFA1DEF73E339A1F1B7B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "concept.timeline-zoom";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5184D370975F7830E689D8 /* Build configuration list for PBXNativeTarget "TimelineZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFA1DEF73E339A1F1B7B34 /* Debug */,
+				2462DD3EB7D2AC385A09CAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C11482E046384C7E8009EEC8 /* Build configuration list for PBXProject "TimelineZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9DAFBE72AB455C5AD77316 /* Debug */,
+				3086CE6B5C35903588616953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		819D0186ECE2DE10CB31FA7B /* XCLocalSwiftPackageReference "Vendor/TelegramShell" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/TelegramShell;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FB16C899286AED13256250C /* TelegramShell */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TelegramShell;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F9B536D30FDD5121C2D68E6E /* Project object */;
+}
